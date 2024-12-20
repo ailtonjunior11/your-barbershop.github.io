@@ -1,0 +1,21 @@
+:root {
+  /* Paleta Cores */
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-dark-gray: #202020;
+  --color-light-gray: #00000010;
+  --color-medium-brown: #ba8158;
+  --color-dark-brown: #90560f;
+
+  /* fonte */
+  --font-family: "Inter Tight", sans-serif;
+}
+
+[data-theme="dark"] {
+  --color-white: #000000;
+  --color-black: #ffffff;
+  --color-dark-gray: #00000010;
+  --color-light-gray: #202020;
+  --color-medium-brown: #90560f;
+  --color-dark-brown: #ba8158;
+}

@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: var(--font-family);
+  text-align: center;
+  transition: all 0.3s;
+  color: var(--color-white);
+}
+
+body {
+  background-color: var(--color-dark-gray);
+}
+
+main {
+  min-height: calc(100dvh - 12dvh);
+}
+
+section {
+  height: 100dvh;
+  padding: 3rem 0 0;
+}

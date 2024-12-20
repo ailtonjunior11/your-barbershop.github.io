@@ -1,0 +1,11 @@
+@import "./global.css";
+@import "./variables.css";
+
+@import "./arquivos.css/about.css";
+@import "./arquivos.css/contacts.css";
+@import "./arquivos.css/header-menu.css";
+@import "./arquivos.css/home.css";
+@import "./arquivos.css/informations.css";
+@import "./arquivos.css/location.css";
+@import "./arquivos.css/services.css";
+@import "./arquivos.css/footer.css";

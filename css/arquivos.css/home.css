@@ -1,0 +1,45 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+  height: 40dvh;
+  background-image: url(../../img/img-home.jpg);
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  margin-top: 1.1rem;
+  color: #ffffff;
+}
+
+.container__redes {
+  display: flex;
+  gap: 1rem;
+}
+
+.container__redes a {
+  padding-inline: 1rem;
+}
+
+.container__redes a i {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+/* Responsividade */
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container__redes a i:hover {
+    transform: scale(1.3);
+  }
+}

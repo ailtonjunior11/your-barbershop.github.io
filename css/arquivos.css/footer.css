@@ -1,0 +1,36 @@
+footer {
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 0.75rem;
+}
+
+footer .copy__container {
+  margin-bottom: 0.5rem;
+}
+
+footer .container__redes__sociais a {
+  display: none;
+  padding-inline: 0.85rem;
+}
+
+footer .container__redes__sociais i {
+  font-size: 1.5rem;
+}
+
+/* Responsividade */
+@media screen and (min-width: 768px) {
+  footer {
+    display: flex;
+  }
+
+  footer .container__redes__sociais a {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  footer .container__redes__sociais i:hover {
+    transform: scale(1.5);
+  }
+}

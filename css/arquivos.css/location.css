@@ -1,0 +1,41 @@
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0 0;
+}
+
+.location h2 {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+  padding-bottom: 0.7rem;
+  position: relative;
+}
+
+.location h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 42%;
+
+  width: 15%;
+  height: 2px;
+
+  background-color: var(--color-medium-brown);
+}
+
+.container__map {
+  text-align: center;
+  width: 95%;
+  position: relative;
+}
+
+iframe {
+  width: 100%;
+}
+
+@media screen and (min-width: 1280px) {
+  .location {
+    justify-content: center;
+  }
+}
